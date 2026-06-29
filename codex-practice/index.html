@@ -76,7 +76,20 @@
         <p class="welcome-message" id="welcomeMessage" aria-live="polite"></p>
       </div>
     </section>
+<section aria-labelledby="todo">
+  <h2 id="todo">待办清单</h2>
 
+  <div class="todo-form">
+    <label class="todo-field" for="todoInput">
+      <span>输入任务</span>
+      <input type="text" id="todoInput" placeholder="例如：学习 JavaScript">
+    </label>
+
+    <button type="button" id="addTodoButton">新增任务</button>
+  </div>
+
+  <ul class="todo-list" id="todoList"></ul>
+</section>
     <footer>Codex Practice - 练习 11：输入名字生成欢迎语</footer>
   </main>
 
