@@ -67,12 +67,16 @@
     <section aria-labelledby="welcome">
       <h2 id="welcome">互动练习</h2>
       <div class="welcome-actions">
-        <button type="button" id="welcomeButton">点我看看</button>
+        <label class="name-field" for="nameInput">
+          <span>输入你的名字</span>
+          <input type="text" id="nameInput" placeholder="例如：王维">
+        </label>
+        <button type="button" id="welcomeButton">生成欢迎语</button>
         <p class="welcome-message" id="welcomeMessage" aria-live="polite"></p>
       </div>
     </section>
 
-    <footer>Codex Practice - 练习 9：再次提交并同步</footer>
+    <footer>Codex Practice - 练习 11：输入名字生成欢迎语</footer>
   </main>
 
   <script src="script.js"></script>

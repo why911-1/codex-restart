@@ -163,6 +163,31 @@ li + li {
   align-items: center;
 }
 
+.name-field {
+  display: grid;
+  gap: 6px;
+  min-width: min(100%, 260px);
+  color: var(--muted);
+  font-size: 14px;
+}
+
+input {
+  min-height: 44px;
+  width: 100%;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--ink);
+  background: #ffffff;
+  font: inherit;
+}
+
+input:focus {
+  border-color: var(--blue);
+  outline: 3px solid #bfdbfe;
+  outline-offset: 1px;
+}
+
 button {
   min-height: 44px;
   padding: 0 18px;
